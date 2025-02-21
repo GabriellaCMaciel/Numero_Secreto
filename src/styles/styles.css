@@ -1,0 +1,60 @@
+body {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 1%, rgba(94, 34, 211, 1) 50%, rgba(157, 127, 207, 1) 100%);
+    color: #fff
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 7rem 25rem 0 25rem;
+    padding: 3rem 0 3rem 0;
+    background-color: oklch(0.257 0.09 281.288);
+    gap: 30px;
+    border-radius: 8px;
+}
+
+strong {
+    color: #e5d9f2;
+}
+
+input {
+    border-radius: 5px;
+    width: 170px;
+    height: 30px;
+    border: 1px solid oklch(0.702 0.183 293.541);
+}
+
+#tentar {
+    border-radius: 5px;
+    width: 55px;
+    height: 30px;
+    border: 1px solid oklch(0.702 0.183 293.541);
+    margin: 15px;
+    background-color: #e5d9f2;
+    cursor: pointer;
+}
+
+#tentar:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 25px rgba(94, 34, 211, 1);
+    background-color: #fff;
+}
+
+#jogarNovamente {
+    display: none;
+    border-radius: 5px;
+    width: 115px;
+    height: 30px;
+    border: 1px solid oklch(0.702 0.183 293.541);
+    margin: 15px;
+    background-color: #e5d9f2;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#jogarNovamente:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 25px rgba(94, 34, 211, 1);
+}
